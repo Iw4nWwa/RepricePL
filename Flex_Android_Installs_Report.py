@@ -11,7 +11,7 @@ yesterday = today - timedelta(days=1)
 now = datetime.now()
 current_time = now.strftime("%H:%M:%S")
 
-with open('credentialss.json') as data_file:
+with open('credentials.json') as data_file:
     data = json.load(data_file)
 
 app_id = 'com.orange.rn.dop'
